@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project-login</title>
+  <link rel="stylesheet" href="estilos/style.css">
+  <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+  <main>
+    <section id="login">
+      <div id="image">
+        <!-- Aqui vai a img nas CSS-->
+      </div>
+      <div id="form">
+        <h1>Login</h1>
+        <p>Wellcome. Welcome. Log in to access your account and be able to use your environment settings.</p>
+        <form action="database.js" method="post">
+          <fieldset>
+            <p>
+              <label for="inick">Nickname:</label>
+              <input type="text" name="nick" id="inick" required minlength="4" maxlength="15" size="30" placeholder="enter your login">
+            </p>
+
+            <p>
+              <label for="isen">Senha:</label>
+              <input type="password" name="sen" id="isen" required minlength="8" maxlength="32" size="33" placeholder="enter your password" autocomplete="current-password">
+            </p>
+
+            <p>
+              <input type="submit" value="Enviar">
+              <input type="reset" value="Limpar">
+            </p>
+          </fieldset>
+        </form>
+      </div>
+            <!-- Criar um botão que faça aparecer um iframe com a pagina de criação de login. e depois de criado desapareça.
+            <p>
+            <label for="iregister">Create an Account</label>
+            
+            </p>
+            -->
+    </section>
+  </main>
+</body>
+</html>
