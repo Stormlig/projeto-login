@@ -85,7 +85,7 @@ div#form > p {
 }
 
 fieldset {
-  height: 240px;
+  height: 236px;
   width: 100%;
   border-radius: 5px;
   background-color: var(--cor1);
