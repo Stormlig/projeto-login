@@ -147,7 +147,7 @@ form input[type=submit]:hover {
   font-size: 1em;
   width: 100%;
   cursor: pointer;
-  background: linear-gradient( to top, var(--cor1), var(--cor2));
+  background: linear-gradient( to left, var(--cor1), var(--cor2));
   margin: auto;
   padding: 4px;
   border-radius: 10px;
@@ -163,7 +163,7 @@ form input[type=submit]:hover {
   font-size: 1em;
   width: 100%;
   cursor: pointer;
-  background: linear-gradient( to bottom, var(--cor4), var(--cor2));
+  background: linear-gradient( to left, var(--cor4), var(--cor2));
   margin: auto;
   padding: 4px;
   border-radius: 10px;
