@@ -20,21 +20,21 @@
         <p>Wellcome. Welcome. Log in to access your account and be able to use your environment settings.</p>
         <form action="database.js" method="post" autocomplete="on">
           <fieldset>
-            <p>
-              <span class="material-symbols-outlined">
-                person
-                </span>
-              <input type="text" name="nick" id="inick" required minlength="4" maxlength="12" size="15" placeholder="enter your login" autocomplete="additional-name">
-              <label for="inick">Username</label>
-            </p>
+            <div class="campo">
+                <span class="material-symbols-outlined">
+                  person
+                  </span>
+                <input type="text" name="nick" id="inick" required minlength="4" maxlength="12" size="15" placeholder="enter your login" autocomplete="additional-name">
+                <label for="inick">Username</label>
+            </div>
 
-            <p>
-              <span class="material-symbols-outlined">
-                vpn_key
-                </span>
-              <input type="password" name="sen" id="isen" required minlength="5" maxlength="12" size="15" placeholder="enter your password" autocomplete="current-password">
-              <label for="isen">Password</label>
-            </p>
+            <div class="campo">
+                <span class="material-symbols-outlined">
+                  vpn_key
+                  </span>
+                <input type="password" name="sen" id="isen" required minlength="5" maxlength="12" size="15" placeholder="enter your password" autocomplete="current-password">
+                <label for="isen">Password</label>
+            </div>
 
             <p>
               <input type="submit" value="Enter">
