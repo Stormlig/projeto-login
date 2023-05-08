@@ -130,7 +130,7 @@ input {
 input[type=submit] {
   display: block;
   width: 100%;
-  transform: translateY(-5px);
+  transform: translateY(-2px);
   cursor: pointer;
   background-color: var(--cor0);
   padding: 10px;

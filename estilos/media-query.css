@@ -14,6 +14,10 @@
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor0), var(--cor2), var(--cor3), var(--cor4)) ;
   }
 
+  h1 {
+    font-size: 2em;
+  }
+
   p {
     text-align: justify;
     text-indent: 10px;
@@ -22,7 +26,8 @@
   }
 
   section#login {
-    width: 80vw;
+    width: 85vw;
+    height: 345px;
   }
   
   section#login > div#image {
@@ -39,7 +44,8 @@
 
 @media screen and (min-width: 992px) {
   section#login {
-    width: 900px;
+    width: 950px;
+    height: 378px;
   }
 
   p {
