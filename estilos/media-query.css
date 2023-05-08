@@ -14,6 +14,13 @@
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor0), var(--cor2), var(--cor3), var(--cor4)) ;
   }
 
+  p {
+    text-align: justify;
+    text-indent: 10px;
+    margin: 5px;
+    margin-bottom: 5px;
+  }
+
   section#login {
     width: 80vw;
   }
@@ -28,11 +35,54 @@
     float: right;
     width: 60%;
   }
+
+  form input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    cursor: pointer;
+    background-color: var(--cor0);
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+  }
+  
+  .but0 {
+    display: block;
+    font-size: 1em;
+    width: 98%;
+    cursor: pointer;
+    background-color: var(--cor4);
+    margin: auto;
+    padding: 8px;
+    border-radius: 15px;
+  }
+  
+  .but1 {
+    display: block;
+    font-size: 1em;
+    width: 90%;
+    cursor: pointer;
+    background-color: var(--cor4);
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    padding: 8px;
+    border-radius: 15px;
+  }
 }
 
 @media screen and (min-width: 992px) {
   section#login {
     width: 900px;
+  }
+
+  p {
+    text-align: justify;
+    text-indent: 10px;
+    margin: 5px;
+    margin-bottom: 5px;
   }
   
   section#login > div#image {
@@ -45,5 +95,49 @@
   section#login > div#form {
     float: left;
     width: 50%;
+  }
+
+  div#form > h1 {
+    font-size: 2em;
+  }
+
+  div#form > p {
+    font-size: 1.2em;
+  }
+
+  form input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    cursor: pointer;
+    background-color: var(--cor0);
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+  }
+  
+  .but0 {
+    display: block;
+    font-size: 1em;
+    width: 98%;
+    cursor: pointer;
+    background-color: var(--cor4);
+    margin: auto;
+    padding: 8px;
+    border-radius: 15px;
+  }
+  
+  .but1 {
+    display: block;
+    font-size: 1em;
+    width: 90%;
+    cursor: pointer;
+    background-color: var(--cor4);
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    padding: 8px;
+    border-radius: 15px;
   }
 }
